@@ -23,12 +23,7 @@ SECRET_KEY = "django-insecure-828_&nx12$s2dv=l0t14xnqi0$5!gptlo%!9s_r)%!yvd=40=8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# Add your Render domain here
-ALLOWED_HOSTS = [
-    'django-upwork-auth.onrender.com',  # Replace with your actual Render domain
-    'localhost',
-    '127.0.0.1'
-]
+ALLOWED_HOSTS = ['yourapp.onrender.com', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
